@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C8AEAD6BCD2C47484508A9E /* Pods_SignUpUsingTableViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFAA11153B6E7AD800001013 /* Pods_SignUpUsingTableViewTests.framework */; };
 		A76A644928E56E340079525E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76A644828E56E340079525E /* AppDelegate.swift */; };
 		A76A644B28E56E340079525E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76A644A28E56E340079525E /* SceneDelegate.swift */; };
-		A76A644D28E56E340079525E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76A644C28E56E340079525E /* ViewController.swift */; };
+		A76A644D28E56E340079525E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76A644C28E56E340079525E /* SignUpViewController.swift */; };
 		A76A645028E56E340079525E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76A644E28E56E340079525E /* Main.storyboard */; };
 		A76A645228E56E350079525E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76A645128E56E350079525E /* Assets.xcassets */; };
 		A76A645528E56E350079525E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76A645328E56E350079525E /* LaunchScreen.storyboard */; };
 		A76A646028E56E350079525E /* SignUpUsingTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76A645F28E56E350079525E /* SignUpUsingTableViewTests.swift */; };
 		A76A646A28E56E350079525E /* SignUpUsingTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76A646928E56E350079525E /* SignUpUsingTableViewUITests.swift */; };
 		A76A646C28E56E350079525E /* SignUpUsingTableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76A646B28E56E350079525E /* SignUpUsingTableViewUITestsLaunchTests.swift */; };
+		A76A647B28E576A80079525E /* TableCellDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76A647A28E576A80079525E /* TableCellDataModel.swift */; };
+		A76A647E28E577B10079525E /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76A647C28E577B10079525E /* DropDownCell.swift */; };
+		A76A647F28E577B10079525E /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A76A647D28E577B10079525E /* DropDownCell.xib */; };
+		A76A648228E59B770079525E /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76A648028E59B770079525E /* TextFieldCell.swift */; };
+		A76A648328E59B770079525E /* TextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A76A648128E59B770079525E /* TextFieldCell.xib */; };
+		D4F42DD67EEAE00EB1230B5A /* Pods_SignUpUsingTableView_SignUpUsingTableViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC40FD53AA7012D58E19C92 /* Pods_SignUpUsingTableView_SignUpUsingTableViewUITests.framework */; };
+		E93B1941AB7724D1AA0E2090 /* Pods_SignUpUsingTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C7886D2CD352E17F19C07E /* Pods_SignUpUsingTableView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25C7886D2CD352E17F19C07E /* Pods_SignUpUsingTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignUpUsingTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3119D1A8671EB83F94BBFFB6 /* Pods-SignUpUsingTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignUpUsingTableView.debug.xcconfig"; path = "Target Support Files/Pods-SignUpUsingTableView/Pods-SignUpUsingTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		4F2597CFE06D6F1113954BE1 /* Pods-SignUpUsingTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignUpUsingTableView.release.xcconfig"; path = "Target Support Files/Pods-SignUpUsingTableView/Pods-SignUpUsingTableView.release.xcconfig"; sourceTree = "<group>"; };
+		4F93A44381B0F6984926D315 /* Pods-SignUpUsingTableView-SignUpUsingTableViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignUpUsingTableView-SignUpUsingTableViewUITests.release.xcconfig"; path = "Target Support Files/Pods-SignUpUsingTableView-SignUpUsingTableViewUITests/Pods-SignUpUsingTableView-SignUpUsingTableViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A76A644528E56E340079525E /* SignUpUsingTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignUpUsingTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76A644828E56E340079525E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A76A644A28E56E340079525E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A76A644C28E56E340079525E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A76A644C28E56E340079525E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		A76A644F28E56E340079525E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A76A645128E56E350079525E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A76A645428E56E350079525E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,16 @@
 		A76A646528E56E350079525E /* SignUpUsingTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignUpUsingTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76A646928E56E350079525E /* SignUpUsingTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUsingTableViewUITests.swift; sourceTree = "<group>"; };
 		A76A646B28E56E350079525E /* SignUpUsingTableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUsingTableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A76A647A28E576A80079525E /* TableCellDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellDataModel.swift; sourceTree = "<group>"; };
+		A76A647C28E577B10079525E /* DropDownCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		A76A647D28E577B10079525E /* DropDownCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
+		A76A648028E59B770079525E /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		A76A648128E59B770079525E /* TextFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldCell.xib; sourceTree = "<group>"; };
+		AFAA11153B6E7AD800001013 /* Pods_SignUpUsingTableViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignUpUsingTableViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90C71DB7B1B8C50FFD5929C /* Pods-SignUpUsingTableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignUpUsingTableViewTests.debug.xcconfig"; path = "Target Support Files/Pods-SignUpUsingTableViewTests/Pods-SignUpUsingTableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D53A5C2B8D3B4479D702EF13 /* Pods-SignUpUsingTableView-SignUpUsingTableViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignUpUsingTableView-SignUpUsingTableViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-SignUpUsingTableView-SignUpUsingTableViewUITests/Pods-SignUpUsingTableView-SignUpUsingTableViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFC40FD53AA7012D58E19C92 /* Pods_SignUpUsingTableView_SignUpUsingTableViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignUpUsingTableView_SignUpUsingTableViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB6C7C77FFAD44F9878D06E /* Pods-SignUpUsingTableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignUpUsingTableViewTests.release.xcconfig"; path = "Target Support Files/Pods-SignUpUsingTableViewTests/Pods-SignUpUsingTableViewTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93B1941AB7724D1AA0E2090 /* Pods_SignUpUsingTableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C8AEAD6BCD2C47484508A9E /* Pods_SignUpUsingTableViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +94,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F42DD67EEAE00EB1230B5A /* Pods_SignUpUsingTableView_SignUpUsingTableViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B1D70D664F10825758A777B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3119D1A8671EB83F94BBFFB6 /* Pods-SignUpUsingTableView.debug.xcconfig */,
+				4F2597CFE06D6F1113954BE1 /* Pods-SignUpUsingTableView.release.xcconfig */,
+				D53A5C2B8D3B4479D702EF13 /* Pods-SignUpUsingTableView-SignUpUsingTableViewUITests.debug.xcconfig */,
+				4F93A44381B0F6984926D315 /* Pods-SignUpUsingTableView-SignUpUsingTableViewUITests.release.xcconfig */,
+				B90C71DB7B1B8C50FFD5929C /* Pods-SignUpUsingTableViewTests.debug.xcconfig */,
+				FCB6C7C77FFAD44F9878D06E /* Pods-SignUpUsingTableViewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B8ACBDD2A264B2CB14D4D68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25C7886D2CD352E17F19C07E /* Pods_SignUpUsingTableView.framework */,
+				EFC40FD53AA7012D58E19C92 /* Pods_SignUpUsingTableView_SignUpUsingTableViewUITests.framework */,
+				AFAA11153B6E7AD800001013 /* Pods_SignUpUsingTableViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A76A643C28E56E340079525E = {
 			isa = PBXGroup;
 			children = (
+				A76A647928E56FC70079525E /* models */,
+				A76A647828E56FB90079525E /* cells */,
 				A76A644728E56E340079525E /* SignUpUsingTableView */,
 				A76A645E28E56E350079525E /* SignUpUsingTableViewTests */,
 				A76A646828E56E350079525E /* SignUpUsingTableViewUITests */,
 				A76A644628E56E340079525E /* Products */,
+				7B1D70D664F10825758A777B /* Pods */,
+				8B8ACBDD2A264B2CB14D4D68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +153,7 @@
 			children = (
 				A76A644828E56E340079525E /* AppDelegate.swift */,
 				A76A644A28E56E340079525E /* SceneDelegate.swift */,
-				A76A644C28E56E340079525E /* ViewController.swift */,
+				A76A644C28E56E340079525E /* SignUpViewController.swift */,
 				A76A644E28E56E340079525E /* Main.storyboard */,
 				A76A645128E56E350079525E /* Assets.xcassets */,
 				A76A645328E56E350079525E /* LaunchScreen.storyboard */,
@@ -127,6 +179,25 @@
 			path = SignUpUsingTableViewUITests;
 			sourceTree = "<group>";
 		};
+		A76A647828E56FB90079525E /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				A76A647C28E577B10079525E /* DropDownCell.swift */,
+				A76A647D28E577B10079525E /* DropDownCell.xib */,
+				A76A648028E59B770079525E /* TextFieldCell.swift */,
+				A76A648128E59B770079525E /* TextFieldCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		A76A647928E56FC70079525E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A76A647A28E576A80079525E /* TableCellDataModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A76A646F28E56E350079525E /* Build configuration list for PBXNativeTarget "SignUpUsingTableView" */;
 			buildPhases = (
+				130E2DB4AB92CA9C4027EFE9 /* [CP] Check Pods Manifest.lock */,
 				A76A644128E56E340079525E /* Sources */,
 				A76A644228E56E340079525E /* Frameworks */,
 				A76A644328E56E340079525E /* Resources */,
+				341509B573317B72E5861249 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A76A647228E56E350079525E /* Build configuration list for PBXNativeTarget "SignUpUsingTableViewTests" */;
 			buildPhases = (
+				4C5FC3CDF04954153B57EE4D /* [CP] Check Pods Manifest.lock */,
 				A76A645728E56E350079525E /* Sources */,
 				A76A645828E56E350079525E /* Frameworks */,
 				A76A645928E56E350079525E /* Resources */,
@@ -169,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A76A647528E56E350079525E /* Build configuration list for PBXNativeTarget "SignUpUsingTableViewUITests" */;
 			buildPhases = (
+				2CA6CAE927FB36E556BB9749 /* [CP] Check Pods Manifest.lock */,
 				A76A646128E56E350079525E /* Sources */,
 				A76A646228E56E350079525E /* Frameworks */,
 				A76A646328E56E350079525E /* Resources */,
+				CA880ED6345A2EF9D1A6C7FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,7 +283,7 @@
 				};
 			};
 			buildConfigurationList = A76A644028E56E340079525E /* Build configuration list for PBXProject "SignUpUsingTableView" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -233,6 +309,8 @@
 			files = (
 				A76A645528E56E350079525E /* LaunchScreen.storyboard in Resources */,
 				A76A645228E56E350079525E /* Assets.xcassets in Resources */,
+				A76A648328E59B770079525E /* TextFieldCell.xib in Resources */,
+				A76A647F28E577B10079525E /* DropDownCell.xib in Resources */,
 				A76A645028E56E340079525E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +331,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		130E2DB4AB92CA9C4027EFE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignUpUsingTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CA6CAE927FB36E556BB9749 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignUpUsingTableView-SignUpUsingTableViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		341509B573317B72E5861249 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignUpUsingTableView/Pods-SignUpUsingTableView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignUpUsingTableView/Pods-SignUpUsingTableView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignUpUsingTableView/Pods-SignUpUsingTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C5FC3CDF04954153B57EE4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignUpUsingTableViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA880ED6345A2EF9D1A6C7FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignUpUsingTableView-SignUpUsingTableViewUITests/Pods-SignUpUsingTableView-SignUpUsingTableViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignUpUsingTableView-SignUpUsingTableViewUITests/Pods-SignUpUsingTableView-SignUpUsingTableViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignUpUsingTableView-SignUpUsingTableViewUITests/Pods-SignUpUsingTableView-SignUpUsingTableViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A76A644128E56E340079525E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A76A644D28E56E340079525E /* ViewController.swift in Sources */,
+				A76A647E28E577B10079525E /* DropDownCell.swift in Sources */,
+				A76A644D28E56E340079525E /* SignUpViewController.swift in Sources */,
 				A76A644928E56E340079525E /* AppDelegate.swift in Sources */,
+				A76A647B28E576A80079525E /* TableCellDataModel.swift in Sources */,
 				A76A644B28E56E340079525E /* SceneDelegate.swift in Sources */,
+				A76A648228E59B770079525E /* TextFieldCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +616,7 @@
 		};
 		A76A647028E56E350079525E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3119D1A8671EB83F94BBFFB6 /* Pods-SignUpUsingTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +645,7 @@
 		};
 		A76A647128E56E350079525E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2597CFE06D6F1113954BE1 /* Pods-SignUpUsingTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +674,7 @@
 		};
 		A76A647328E56E350079525E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90C71DB7B1B8C50FFD5929C /* Pods-SignUpUsingTableViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +695,7 @@
 		};
 		A76A647428E56E350079525E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB6C7C77FFAD44F9878D06E /* Pods-SignUpUsingTableViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +716,7 @@
 		};
 		A76A647628E56E350079525E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D53A5C2B8D3B4479D702EF13 /* Pods-SignUpUsingTableView-SignUpUsingTableViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +735,7 @@
 		};
 		A76A647728E56E350079525E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F93A44381B0F6984926D315 /* Pods-SignUpUsingTableView-SignUpUsingTableViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
