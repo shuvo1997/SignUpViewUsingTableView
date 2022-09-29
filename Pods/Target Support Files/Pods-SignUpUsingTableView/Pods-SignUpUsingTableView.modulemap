@@ -1,0 +1,6 @@
+framework module Pods_SignUpUsingTableView {
+  umbrella header "Pods-SignUpUsingTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

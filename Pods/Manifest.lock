@@ -1,0 +1,20 @@
+PODS:
+  - DropDown (2.3.13)
+  - GradientButtonSwift (1.0.2)
+
+DEPENDENCIES:
+  - DropDown
+  - GradientButtonSwift
+
+SPEC REPOS:
+  trunk:
+    - DropDown
+    - GradientButtonSwift
+
+SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  GradientButtonSwift: b2231f7ccb0d2c817409ca20634f7a430876f7d5
+
+PODFILE CHECKSUM: 2cdbd25dcc8ab415a0bc2c628eb017710b85fd62
+
+COCOAPODS: 1.11.3

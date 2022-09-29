@@ -1,0 +1,6 @@
+framework module Pods_SignUpUsingTableViewTests {
+  umbrella header "Pods-SignUpUsingTableViewTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
